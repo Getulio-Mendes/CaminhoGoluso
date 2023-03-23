@@ -23,10 +23,10 @@ O programa espera uma entrada formatada onde:
 - Cada matriz está separada da próxima por uma linha em branco;
 - Cada número está separado por um espaço do próximo;
 - As matrizes são preenchidas somente por números positivos;
-- As dimenções das matrizes é dado na primeira linha do arquivo;
+- As dimenções das matrizes são dadas na primeira linha do arquivo;
 - Todas as matrizes tem as mesmas dimenções.
 
-A entrada deve estar localizada no diretório "dataset" no arquivo "input.data".
+A entrada deve estar localizada no diretório "dataset" em um arquivo chamado "input.data".
 
 ## Funções
 
@@ -42,13 +42,13 @@ A entrada deve estar localizada no diretório "dataset" no arquivo "input.data".
 
 - ```int solveMatrix(int **matrix, int size)```: Move na matrix usando a função ```selectDirection``` e retorna a soma total do caminho pecorrido.
 
-## Exemplos de compilação
+## Exemplo de execução
 
-A imagem a seguir é um exemplo de entrada válida para o programa. (N matrizes de kxk bla bla)
+A imagem a seguir é um exemplo de entrada válida para o programa. (2 matrizes de 7x7)
 
 ![Matrizes](img/Capture.PNG)
 
-Ao ser executado, o programa mostrará o caminho pecorrido em cada matriz em verde (na maioria dos terminais) e representado pelo valor -1, e logo após colocará o resultado da soma total do caminho. Como na imagem a seguir:
+Ao ser executado, o programa mostrará o caminho pecorrido em cada matriz em verde e representado pelo valor -1, e logo após colocará o resultado da soma total do caminho. Como na imagem a seguir:
 
 ![CaminhoMatrizes](img/Capture2.PNG)
 
