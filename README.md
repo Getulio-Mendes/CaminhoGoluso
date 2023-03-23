@@ -8,7 +8,7 @@ O algoritmo pede ao usuário a posição inial para cada matriz e considera a po
 
 Assim, o algoritimo escolherá a posição com maior número dentre as direções: direita, esquerda, baixo, diagonal esquerda de baixo e diagonal direita de baixo, conforme imagem a seguir.
 
-![DireçõesMatriz](matrix.jpg)
+![DireçõesMatriz](img/matrix.jpg)
 
 É importante ressaltar que:
 
@@ -46,11 +46,11 @@ A entrada deve estar localizada no diretório "dataset" no arquivo "input.data".
 
 A imagem a seguir é um exemplo de entrada válida para o programa. (N matrizes de kxk bla bla)
 
-![Matrizes](Capture.png)
+![Matrizes](img/Capture.PNG)
 
 Ao ser executado, o programa mostrará o caminho pecorrido em cada matriz em verde (na maioria dos terminais) e representado pelo valor -1, e logo após colocará o resultado da soma total do caminho. Como na imagem a seguir:
 
-![CaminhoMatrizes](Capture2.png)
+![CaminhoMatrizes](img/Capture2.PNG)
 
 No final é também colocado a soma total do caminho de todas as matrizes do arquivo.
 
